@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Mistério na Vila Nocturnia</title>
+</head>
+<body>
+     <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.avif" alt="">
+            <p>Ontem me disseram que essa vila...Nocturnia? estava sendo assombrada  há anos! Então, como um bom curioso, juntei minhas coisas e fui até o local o mais rápido que pude.</p>
+            <button class="btn-proximo" data-proximo="1">Sair pela estrada de terra</button>
+            <button class="btn-proximo" data-proximo="2">Sair pela avenida</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Seguindo pela estrada de terra, após quase uma hora você encontra uma placa: "Bem vindo à Nocturnia!". Você segue na direção da placa?</p>
+            <button class="btn-proximo" data-proximo="3">Sim</button> 
+            <button class="btn-proximo" data-proximo="4">Não, irei voltar</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Pela avenida, você vê um local muito movimentado. Pessoas indo e vindo por aí...mas também avista um parque e uma lanchonete, por onde você vai?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar o parque</button>
+            <button class="btn-proximo" data-proximo="6">Visitar a lanchonete</button>
+         </div>
+        <div class="passo" id="passo-3">
+            <p>Passando pela placa e pela enorme entrada da vila, você vê inúmeras casas pequenas. Todas as portas estavam fechadas, luzes fracas ou quase inexistentes mas o caminho prosseguia por uma pequena estrada.</p>
+            <button class="btn-proximo" data-proximo="7">Prosseguir pela estrada</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="passo-4.avif" alt="voltando para casa">
+            <p>Você volta para casa, mas por muito tempo sente uma sensação estranha. Algo ainda está escondido em Nocturnia.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Dentro do parque, você resolve fazer uma caminhada, já que era uma noite refrescante. Porém, aquela famosa estrada de terra para a vila Nocturnia aparece.</p>
+            <button class="btn-proximo" data-proximo="7">Prosseguir pela estrada</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Entrando na lanchonete, é um local comum; várias comidas em vitrines e pessoas comendo. Você até pode pegar uma coxinha se quiser, mas a vila não é por aqui.</p>
+            <button class="btn-proximo" data-proximo="8">Pegar a coxinha e ir para o parque</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Seguindo pela estrada, você se depara com uma floresta com mata fechada e uma bifurcação.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela direita</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>De volta ao parque que nesse horário está meio vazio, porém assim parece um local calmante, você também faz uma pausa para terminar de comer sua coxinha. 
+              Mas...andando pelo parque, você encontra a mesma estrada de terra de antes, a vila é por aí!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir a estrada de terra</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Na mata à esquerda, você se depara com um grande casarão abandonado. Você entra, as madeiras rangendo a cada passo.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o casarão</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>A mata à direita está com o caminho fechado por uma matilha de lobos. Se eu fosse você...não passaria por aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retorar com cautela e tentar o caminho pela outra mata</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="final-historia.jpg" alt="final da historia">
+            <p>Dentro do casarão, você avista um cenário terrível: móveis revirados, muito sangue seco e um cheiro de morte horrível...fora uma sensação estranha, como se alguém observasse sua presença aqui. Mas, você está sozinho, não tem como isso ser algo com que se preocupar...certo?
+              Bem...talvez investigar a lenda da vila Assombrada não foi uma ideia muito inteligente.</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo a mata à esquerda, você finalmente encontra o casarão misterioso.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o casarão por dentro</button>
+        </div>
+    
+    
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

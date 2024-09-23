@@ -1,0 +1,35 @@
+body {
+    background-color: #13133b;
+    color: aliceblue;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color:#375b72;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.passo {
+    display: none;
+    font-size: 25px;
+}
+
+.passo.ativo {
+    display: block;
+    font-size: 25px;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
